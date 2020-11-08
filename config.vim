@@ -16,6 +16,9 @@ set notimeout
 set viewoptions=cursor,folds,slash,unix "指定 :mkview 保存的内容
 set wrap "折行
 
+"设置leader为空格
+let mapleader=" "
+
 set tw=0
 set autoindent "缩进
 "代码折叠
@@ -74,7 +77,8 @@ let g:coc_global_extensions = [
 	\ 'coc-vetur',
 	\ 'coc-yaml',
 	\ 'coc-yank',
-	\ 'coc-clangd']
+	\ 'coc-clangd',
+	\ 'coc-translator']
 
 "--gitgutter--
 let g:gitgutter_sign_allow_clobber = 0
@@ -91,3 +95,7 @@ let g:gitgutter_sign_modified_removed = '▒'
 let g:instant_markdown_slow = 0
 let g:instant_markdown_autostart = 0
 let g:instant_markdown_autoscroll = 1
+
+"--coc-translator--
+nmap <Leader>t <Plug>(coc-translator-p)
+vmap <Leader>t <Plug>(coc-translator-pv)

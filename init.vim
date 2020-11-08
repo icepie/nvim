@@ -8,3 +8,4 @@ endif
 
 source ~/.config/nvim/plugins.vim "应用插件
 source ~/.config/nvim/config.vim "应用配置文件
+source ~/.config/nvim/keyboard.vim "应用键位
