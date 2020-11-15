@@ -75,10 +75,11 @@ let g:coc_global_extensions = [
 	\ 'coc-tsserver',
 	\ 'coc-vimlsp',
 	\ 'coc-vetur',
-	\ 'coc-yaml',
 	\ 'coc-yank',
 	\ 'coc-clangd',
-	\ 'coc-translator']
+	\ 'coc-translator',
+	\ 'coc-snippets',
+	\ 'coc-pairs']
 
 "--gitgutter--
 let g:gitgutter_sign_allow_clobber = 0
