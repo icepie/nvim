@@ -76,7 +76,6 @@ let g:coc_global_extensions = [
 	\ 'coc-vimlsp',
 	\ 'coc-vetur',
 	\ 'coc-yank',
-	\ 'coc-clangd',
 	\ 'coc-translator',
 	\ 'coc-snippets',
 	\ 'coc-pairs']
