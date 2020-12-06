@@ -99,3 +99,5 @@ let g:instant_markdown_autoscroll = 1
 "--coc-translator--
 nmap <Leader>t <Plug>(coc-translator-p)
 vmap <Leader>t <Plug>(coc-translator-pv)
+
+let g:rainbow_active = 1 "彩色括号

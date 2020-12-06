@@ -31,5 +31,10 @@ Plug 'mzlogin/vim-markdown-toc', { 'for': ['gitignore', 'markdown', 'vim-plug'] 
 Plug 'dkarter/bullets.vim'
 Plug 'voldikss/vim-floaterm' "浮动终端
 Plug 'purofle/vim-mindustry-logic' "广告
+
+
 Plug 'jackguo380/vim-lsp-cxx-highlight' "c++高亮
+
+Plug 'luochen1990/rainbow' "彩色括号
+
 call plug#end()
