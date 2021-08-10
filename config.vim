@@ -54,6 +54,7 @@ hi illuminatedWord cterm=undercurl gui=undercurl
 "--coc.nvim--
 let g:coc_global_extensions = [
 	\ 'coc-actions',
+	\ 'coc-explorer',
 	\ 'coc-css',
 	\ 'coc-diagnostic',
 	\ 'coc-explorer',

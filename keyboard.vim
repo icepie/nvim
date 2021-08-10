@@ -11,6 +11,8 @@ nmap <c-w> :w<CR>
 nmap <c-q> :q!<CR>
 nmap <LEADER><space> :FloatermNew<CR>
 
+nnoremap <space>e :CocCommand explorer<CR>
+
 "TAB键
 inoremap <silent><expr> <TAB>
 			\ pumvisible() ? coc#_select_confirm() :
