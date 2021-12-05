@@ -17,7 +17,7 @@ set viewoptions=cursor,folds,slash,unix "指定 :mkview 保存的内容
 set wrap "折行
 
 "设置leader为空格
-let mapleader=" "
+let mapleader = "\<space>"
 
 set tw=0
 set autoindent "缩进
@@ -58,6 +58,7 @@ let g:coc_global_extensions = [
 	\ 'coc-css',
 	\ 'coc-diagnostic',
 	\ 'coc-explorer',
+	\ 'coc-rust-analyzer',
 	\ 'coc-gitignore',
 	\ 'coc-html',
 	\ 'coc-json',

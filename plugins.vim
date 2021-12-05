@@ -32,6 +32,8 @@ Plug 'dkarter/bullets.vim'
 Plug 'voldikss/vim-floaterm' "浮动终端
 Plug 'purofle/vim-mindustry-logic' "广告
 
+"AI
+Plug 'github/copilot.vim'
 
 Plug 'jackguo380/vim-lsp-cxx-highlight' "c++高亮
 
