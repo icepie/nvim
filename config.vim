@@ -1,9 +1,20 @@
 "---基本配置---
+set encoding=utf-8
 set number "显示行号
 set relativenumber "显示相对行号
 set cursorline "高亮光标所在行
 set hidden "允许在有未保存的修改时切换缓冲区，此时的修改由 vim 负责保存
-set noexpandtab "把tab转为空格
+" Some servers have issues with backup files, see #649.
+set nobackup
+set nowritebackup
+" Give more space for displaying messages.
+set cmdheight=2
+" Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
+" delays and poor user experience.
+set updatetime=300
+" Don't pass messages to |ins-completion-menu|.
+set shortmess+=c
+"set noexpandtab "把tab转为空格
 "--缩进配置--
 set tabstop=4
 set shiftwidth=4
@@ -15,6 +26,8 @@ set ttimeoutlen=0 "设置键响应时间
 set notimeout
 set viewoptions=cursor,folds,slash,unix "指定 :mkview 保存的内容
 set wrap "折行
+" 系统剪切板
+set clipboard+=unnamedplus
 
 "设置leader为空格
 let mapleader = "\<space>"
@@ -62,6 +75,8 @@ let g:coc_global_extensions = [
 	\ 'coc-gitignore',
 	\ 'coc-html',
 	\ 'coc-json',
+	\ 'coc-lua',
+	\ 'coc-java',
 	\ 'coc-lists',
 	\ 'coc-prettier',
 	\ 'coc-pyright',
@@ -69,9 +84,9 @@ let g:coc_global_extensions = [
 	\ 'coc-snippets',
 	\ 'coc-sourcekit',
 	\ 'coc-stylelint',
+	\ 'coc-yaml',
+	\ 'coc-xml',
 	\ 'coc-syntax',
-	\ 'coc-tasks',
-	\ 'coc-todolist',
 	\ 'coc-translator',
 	\ 'coc-tslint-plugin',
 	\ 'coc-tsserver',
